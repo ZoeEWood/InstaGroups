@@ -1,0 +1,80 @@
+#addnew{
+
+	font-family: 'Aguafina Script';
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	background-color: #FAFAFA;
+	color: #125688;
+}
+h1{
+	text-align: center; 
+	font-family: 'Aguafina Script';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	background-color: #FFFFFF;
+	color: #125688;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Aguafina Script';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	background-color: #FFFFFF;
+	color: #125688; 
+}
+
+h3{
+	text-align: center;
+	font-family: 'Aguafina Script';
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	background-color: #FFFFFF;
+	color: #125688; 
+}
+
+.jumbotron{
+	
+	font-family: 'Aguafina Script';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	background-color: #FFFFFF;
+	color: #125688;  
+}
+
+body{
+
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	background-color: #FAFAFA; 
+	align: center; 
+}
+
+.col-wrapper{
+	width:960px; margin:0 auto;
+}
+.col{
+	margin:0 10px; float:left; display:inline;
+}
+.col1{
+	width:480px;
+}
+.col2{
+	width:480px;
+}
