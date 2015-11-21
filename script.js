@@ -41,19 +41,29 @@ document.getElementById('addnew').onclick = function(){
 	
 	newGroup = document.createElement("div"); 
 	newGroup.setAttribute("id", "group" + groupCount); 
-	newGroup.setAttribute("class", "newGroup");
+	newGroup.setAttribute("className", "newGroup");
 	parent.appendChild(newGroup); 
 	newGroup.innerHTML = "Group " + groupCount;
 
 	editButton = document.createElement("button"); 
 	buttonText = document.createTextNode("Edit"); 
 	editButton.appendChild(buttonText);  
+	editButton.setAttribute("id", "edit" + groupCount); 
+	editButton.setAttribute("className", "editButton"); 
+	editButton.setAttribute("onClick", "getID(this.id)"); 
 	parent.appendChild(editButton);
 
 	return false; 
 }; 
 
+var buttonID = null; 
+var subID = null; 
+function getID(clicked_id){
 
+	buttonID = clicked_id; 
+	subID = buttonID.substr(4, 5); 
+	alert(subID); 
+}
 
 
 /*
